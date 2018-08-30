@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2BDCFEC2137DA2000EF88CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BDCFEB2137DA2000EF88CF /* AppDelegate.m */; };
+		D2BDCFEF2137DA2000EF88CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BDCFEE2137DA2000EF88CF /* ViewController.m */; };
+		D2BDCFF12137DA2100EF88CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2BDCFF02137DA2100EF88CF /* Assets.xcassets */; };
+		D2BDCFF72137DA2100EF88CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BDCFF62137DA2100EF88CF /* main.m */; };
+		D2BDD00021380B3F00EF88CF /* DNDImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BDCFFF21380B3F00EF88CF /* DNDImageView.m */; };
+		D2BDD0032138222400EF88CF /* NSImage+Filters.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BDD0022138222400EF88CF /* NSImage+Filters.m */; };
+		D2BDD00921382C6400EF88CF /* WindowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BDD00821382C6400EF88CF /* WindowManager.m */; };
+		D2BDD00B2138344700EF88CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2BDD00A2138344700EF88CF /* Main.storyboard */; };
+		D2BDD00E2138384C00EF88CF /* BrightnessFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2BDD00D2138384C00EF88CF /* BrightnessFlow.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2BDCFE72137DA2000EF88CF /* SkylumTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkylumTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2BDCFEA2137DA2000EF88CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2BDCFEB2137DA2000EF88CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2BDCFED2137DA2000EF88CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2BDCFEE2137DA2000EF88CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2BDCFF02137DA2100EF88CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2BDCFF52137DA2100EF88CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2BDCFF62137DA2100EF88CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2BDCFF82137DA2100EF88CF /* SkylumTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SkylumTest.entitlements; sourceTree = "<group>"; };
+		D2BDCFFE21380B3F00EF88CF /* DNDImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DNDImageView.h; sourceTree = "<group>"; };
+		D2BDCFFF21380B3F00EF88CF /* DNDImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNDImageView.m; sourceTree = "<group>"; };
+		D2BDD0012138222400EF88CF /* NSImage+Filters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSImage+Filters.h"; sourceTree = "<group>"; };
+		D2BDD0022138222400EF88CF /* NSImage+Filters.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSImage+Filters.m"; sourceTree = "<group>"; };
+		D2BDD00721382C6400EF88CF /* WindowManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowManager.h; sourceTree = "<group>"; };
+		D2BDD00821382C6400EF88CF /* WindowManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowManager.m; sourceTree = "<group>"; };
+		D2BDD00A2138344700EF88CF /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D2BDD00D2138384C00EF88CF /* BrightnessFlow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BrightnessFlow.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2BDCFE42137DA2000EF88CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2BDCFDE2137DA2000EF88CF = {
+			isa = PBXGroup;
+			children = (
+				D2BDCFE92137DA2000EF88CF /* SkylumTest */,
+				D2BDCFE82137DA2000EF88CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2BDCFE82137DA2000EF88CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2BDCFE72137DA2000EF88CF /* SkylumTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2BDCFE92137DA2000EF88CF /* SkylumTest */ = {
+			isa = PBXGroup;
+			children = (
+				D2BDCFEA2137DA2000EF88CF /* AppDelegate.h */,
+				D2BDCFEB2137DA2000EF88CF /* AppDelegate.m */,
+				D2BDCFED2137DA2000EF88CF /* ViewController.h */,
+				D2BDCFEE2137DA2000EF88CF /* ViewController.m */,
+				D2BDCFF02137DA2100EF88CF /* Assets.xcassets */,
+				D2BDCFF52137DA2100EF88CF /* Info.plist */,
+				D2BDCFF62137DA2100EF88CF /* main.m */,
+				D2BDCFF82137DA2100EF88CF /* SkylumTest.entitlements */,
+				D2BDCFFE21380B3F00EF88CF /* DNDImageView.h */,
+				D2BDCFFF21380B3F00EF88CF /* DNDImageView.m */,
+				D2BDD0012138222400EF88CF /* NSImage+Filters.h */,
+				D2BDD0022138222400EF88CF /* NSImage+Filters.m */,
+				D2BDD00721382C6400EF88CF /* WindowManager.h */,
+				D2BDD00821382C6400EF88CF /* WindowManager.m */,
+				D2BDD00A2138344700EF88CF /* Main.storyboard */,
+				D2BDD00D2138384C00EF88CF /* BrightnessFlow.storyboard */,
+			);
+			path = SkylumTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2BDCFE62137DA2000EF88CF /* SkylumTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2BDCFFB2137DA2100EF88CF /* Build configuration list for PBXNativeTarget "SkylumTest" */;
+			buildPhases = (
+				D2BDCFE32137DA2000EF88CF /* Sources */,
+				D2BDCFE42137DA2000EF88CF /* Frameworks */,
+				D2BDCFE52137DA2000EF88CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkylumTest;
+			productName = SkylumTest;
+			productReference = D2BDCFE72137DA2000EF88CF /* SkylumTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2BDCFDF2137DA2000EF88CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Artem Shvets";
+				TargetAttributes = {
+					D2BDCFE62137DA2000EF88CF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D2BDCFE22137DA2000EF88CF /* Build configuration list for PBXProject "SkylumTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2BDCFDE2137DA2000EF88CF;
+			productRefGroup = D2BDCFE82137DA2000EF88CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2BDCFE62137DA2000EF88CF /* SkylumTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2BDCFE52137DA2000EF88CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BDD00B2138344700EF88CF /* Main.storyboard in Resources */,
+				D2BDD00E2138384C00EF88CF /* BrightnessFlow.storyboard in Resources */,
+				D2BDCFF12137DA2100EF88CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2BDCFE32137DA2000EF88CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BDCFEF2137DA2000EF88CF /* ViewController.m in Sources */,
+				D2BDD00021380B3F00EF88CF /* DNDImageView.m in Sources */,
+				D2BDCFF72137DA2100EF88CF /* main.m in Sources */,
+				D2BDD00921382C6400EF88CF /* WindowManager.m in Sources */,
+				D2BDD0032138222400EF88CF /* NSImage+Filters.m in Sources */,
+				D2BDCFEC2137DA2000EF88CF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D2BDCFF92137DA2100EF88CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D2BDCFFA2137DA2100EF88CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D2BDCFFC2137DA2100EF88CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SkylumTest/SkylumTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6NLG5S887D;
+				INFOPLIST_FILE = SkylumTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArtemShvets.test.SkylumTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2BDCFFD2137DA2100EF88CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SkylumTest/SkylumTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6NLG5S887D;
+				INFOPLIST_FILE = SkylumTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArtemShvets.test.SkylumTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2BDCFE22137DA2000EF88CF /* Build configuration list for PBXProject "SkylumTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2BDCFF92137DA2100EF88CF /* Debug */,
+				D2BDCFFA2137DA2100EF88CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2BDCFFB2137DA2100EF88CF /* Build configuration list for PBXNativeTarget "SkylumTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2BDCFFC2137DA2100EF88CF /* Debug */,
+				D2BDCFFD2137DA2100EF88CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2BDCFDF2137DA2000EF88CF /* Project object */;
+}
